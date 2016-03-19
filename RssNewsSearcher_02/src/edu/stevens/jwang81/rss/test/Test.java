@@ -39,11 +39,11 @@ public class Test {
 		
 		
 	}
-	private static void xmlParser(String link) {
+	private static void xmlParser(String xmlLink) {
 		boolean result = true;
 			URL url ;
 			try {
-				url = new URL(link);
+				url = new URL(xmlLink);
 				
 				SAXReader saxReader = new SAXReader();  	
 				Document doc = saxReader.read(url); 	
@@ -52,17 +52,13 @@ public class Test {
 					for (int i = 0; i < items.size(); i++) {
 						Element item = items.get(i);
 						Element title = item.element("title");
+						Element link = item.element("link");
 						String tit = title.getText();
+						String lin = link.getText();
+						
 						System.out.println(tit);
 					}
 					
-					Element root = doc.getRootElement();
-					Element channel = root.element("channel");
-					Element item = channel.element("item");
-					Element title = item.element("title");
-					String titl = title.getText();
-					
-					System.out.println(titl);
 					System.out.println("....");
 				}
 				
