@@ -12,8 +12,12 @@ public static Map<String,String> stopWords = new HashMap<String, String>();
 
 public static void main(String[] args) {
 	    StopWords.loadStopWords();
-		System.out.println("sss");
+		System.out.println("[INFO] system start!");
 		UserInterface ui = new UserInterface();
+		
+		RssService rssService = new RssService();
+		RssReader.rssId = rssService.getRssNum();
+		RssReader.newsId = rssService.getNewsNum();
 		ui.init();
 	}
 

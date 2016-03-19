@@ -12,10 +12,7 @@ import java.util.List;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
-import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
-import org.dom4j.Node;
-import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 import org.jsoup.Jsoup;
@@ -27,6 +24,9 @@ public class RssService {
 		System.out.println(link + "  " + name);
 		String xmlPath = "xml/rssConfig.xml";
 		this.xmlGenerator(xmlPath,link,name);
+		System.out.println("[INFO] rss config fiel was updated!");
+		this.xmlParser(link);
+		System.out.println("[INFO] all the related news was crawled successfully!");
 	}
 
 	private int xmlGenerator(String xmlPath, String link, String name) {
@@ -54,7 +54,7 @@ public class RssService {
 			XMLWriter writer = new XMLWriter(new FileOutputStream(
 					xmlPath));
 //			boolean success = xmlParser(link);
-			this.xmlParser(link);
+//			this.xmlParser(link);
 //			if (success) {
 			
 				writer.write(root.getDocument());
@@ -71,19 +71,19 @@ public class RssService {
 		return id;
 	}
 
-	private void xmlParser(String link) {
+	public void xmlParser(String link) {
 		boolean result = true;
 			URL url ;
 			try {
 				url = new URL(link);
 				SAXReader saxReader = new SAXReader();  	
 				Document doc = saxReader.read(url); 	
-				List<Element> nodes = doc.selectNodes("/rss/channel/item");
+				List<Element> items = doc.selectNodes("//item");
 				
-				for (Iterator iter = nodes.iterator(); iter.hasNext(); ) {
-					Element rssElement = (Element) iter.next();
-					String title = rssElement.selectSingleNode("title").getText();
-					String newsUrl = rssElement.selectSingleNode("link").getText();
+				for (Iterator item = items.iterator(); item.hasNext(); ) {
+					Element it = (Element) item.next();
+					String title = it.selectSingleNode("title").getText();
+					String newsUrl = it.selectSingleNode("link").getText();
 					this.httpPaser(newsUrl);
 		        }
 			} catch (MalformedURLException e) {
@@ -114,7 +114,7 @@ public class RssService {
 				cont = content.text();//Get the words of those content
 			}
 			this.createInvertedIndex(name+" "+cont,newsId);
-			
+			System.out.println("[process] : adding news Id: "+newsId);
 			//获得content的string类型，
 			//将这些string，进行建立inverted index操作
 			//generateInvertedIndex();
@@ -154,8 +154,6 @@ public class RssService {
 				
 				if (flag) {
 					Element item = root.addElement("item");
-//					Element eid = item.addElement("id");// word id
-//					eid.setText(arg0);
 					Element nId = item.addElement("newsId");
 					nId.setText(newsId+"");
 					XMLWriter writer;
@@ -251,7 +249,7 @@ public class RssService {
 		SAXReader reader = new SAXReader();
 		Document document;
 		try {
-			document = reader.read(new File("xml/newsList.xml"));
+			document = reader.read(new File("xml/newsPath.xml"));
 			Element root = document.getRootElement();
 			List elemement = root.elements("item");
 			return elemement.size();

@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="/Users/wangjingxu/Downloads/dom4j-1.6.1/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="/Users/wangjingxu/Downloads/jsoup-1.8.3.jar"/>
 	<classpathentry kind="lib" path="/Users/wangjingxu/Downloads/jaxen-1.1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

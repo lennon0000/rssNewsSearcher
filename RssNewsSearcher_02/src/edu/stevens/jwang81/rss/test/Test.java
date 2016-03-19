@@ -29,13 +29,13 @@ public class Test {
 //		String xmlPath = "xml/testXML.xml";
 //		Document d = Util.getDocument(xmlPath);
 //		System.out.println("....");
-		RssService r = new RssService();
 //		String content = "Trump also discussed his request that his team look into the details surrounding a 78-year-old supporter who allegedly punched a protester at a Trump rally in North Carolina last week.";
 //		r.createInvertedIndex(content, 1);
 //		System.out.println("-----");
 		
 		String link = "http://feeds.abcnews.com/abcnews/topstories";
-		xmlParser(link);
+		RssService r = new RssService();
+//		r.xmlParser(link);
 		
 		
 	}
