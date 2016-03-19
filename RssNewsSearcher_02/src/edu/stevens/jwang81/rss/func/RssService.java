@@ -7,8 +7,12 @@ import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -251,5 +255,45 @@ public class RssService {
 		} catch (DocumentException e) {
 			return 0;
 		}
+	}
+
+	public Set<Integer> search(String inputValue) {
+		Set<Integer> results = new HashSet<Integer>();
+		String path = "words/"+inputValue+".xml";
+		Document doc = Util.getDocument(path);
+		if (doc !=null) {
+			List<Element> ids = doc.selectNodes("//newsId");
+			if (ids != null) {
+				for (int i = 0; i < ids.size(); i++) {
+					Element newsId = ids.get(i);
+					results.add(Integer.parseInt(newsId.getText()));
+				}
+			}
+		}
+		
+		return results;
+	}
+
+
+	public Map<String, String> getTitleLink(Integer index) {
+		Map<String,String> results = new HashMap<String, String>();
+		String xmlPath = "xml/newsPath.xml";
+		
+		Document doc = Util.getDocument(xmlPath);
+		if (doc != null) {
+			List<Element> items = doc.selectNodes("//item");
+			if (items != null) {
+				for (int i = 0; i < items.size(); i++) {
+					Element item = items.get(i);
+					int id = Integer.parseInt(item.element("id").getText());
+					if (index == id) {
+						String name = item.element("name").getText();
+						String link = item.element("link").getText();
+						results.put(name, link);
+					}
+				}
+			}
+		}
+		return results;
 	}  
 }
