@@ -27,8 +27,8 @@ public class UserInterface extends JFrame implements ActionListener {
 	private int delId;
 	public void init(){
 		rssService = new RssService();
-		RssReader.rssId = rssService.getRssNum();
-		RssReader.newsId = rssService.getNewsNum();
+//		RssReader.rssId = rssService.getRssNum();
+//		RssReader.newsId = rssService.getNewsNum();
 		List<Element> rsss = rssService.getRssList();
 		
 		JFrame mainFrame = new JFrame("Rss Reader");
