@@ -114,7 +114,7 @@ public class RssService {
 				cont = content.text();//Get the words of those content
 			}
 			this.createInvertedIndex(name+" "+cont,newsId);
-			System.out.println("[process] : adding news Id: "+newsId);
+			System.out.println("[LOADING] : adding news Id: "+newsId);
 			//获得content的string类型，
 			//将这些string，进行建立inverted index操作
 			//generateInvertedIndex();
@@ -126,7 +126,7 @@ public class RssService {
 	
 	public void createInvertedIndex(String content, int newsId) {
 		// TODO Auto-generated method stub
-		String[] words = content.split(" ");
+		String[] words = content.split("[^a-zA-Z]+");
 		
 		for (int i = 0; i < words.length; i++) {
 			String word = Util.upperToLower(words[i]);
@@ -174,11 +174,6 @@ public class RssService {
 		}
 	}
 
-
-	private boolean isStopWords(String word) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
 	public int getRssNum() {
 

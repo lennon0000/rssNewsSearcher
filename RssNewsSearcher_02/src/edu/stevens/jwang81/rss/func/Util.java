@@ -50,6 +50,7 @@ public class Util {
 		SAXReader reader = new SAXReader();
 		Element root;
 		Document document;
+		
 		try {
 			document = reader.read(new File(xmlPath));
 			root = document.getRootElement();
