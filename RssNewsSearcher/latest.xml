@@ -1,0 +1,396 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?>
+<rss xmlns:fnc="http://www.foxnews.com/xmlfeed/fncModule#" version="2.0">
+	<channel>
+		<title>FOXNews.com</title>
+		<link>http://www.foxnews.com/</link>
+		<description>FOX News Channel - We Report. You Decide.</description>
+		<copyright>Copyright 2016 FOX News Channel</copyright>
+		<managingEditor>foxnewsonline@foxnews.com (Fox News Online)</managingEditor>
+		<language>en-us</language>
+		<lastBuildDate>Wed, 16 March 2016 00:38:30 EDT</lastBuildDate>
+		<webMaster>foxnewsonline@foxnews.com (Fox News Online)</webMaster>
+		<image>
+			<url>http://www.foxnews.com/images/headers/fnc_logo.gif</url>
+			<title>FOXNews.com Live Bookmark</title>
+			<link>http://www.foxnews.com/</link>
+		</image>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom"
+			rel="self" type="application/rss+xml" href="http://feeds.foxnews.com/foxnews/latest" />
+		<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+			uri="foxnews/latest" />
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom"
+			rel="hub" href="http://pubsubhubbub.appspot.com/" />
+		<item>
+			<title><![CDATA[TRUMP, CLINTON ROLL ON AS RUBIO'S RUN COMES TO AN END Frontrunners score impressive wins, Kasich moves on with Ohio victory   &#8212; so where does GOP go from here?]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/15/rubio-suspends-gop-presidential-campaign-after-florida-loss.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Wed, 16 Mar 2016 00:31:51 EDT</pubDate>
+			<fnc:datetime>01:31 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[CLINTON TAKES ILLINOIS Hillary narrowly defeats Bernie for fourth victory]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/16/clinton-notches-big-wins-in-ohio-florida-and-north-carolina.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Wed, 16 Mar 2016 00:31:51 EDT</pubDate>
+			<fnc:datetime>01:31 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA['PLEASE PRAY' Texas cop in critical condition after shootout]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/16/texas-police-officer-in-critical-condition-suspect-dead-after-shootout.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Wed, 16 Mar 2016 00:31:51 EDT</pubDate>
+			<fnc:datetime>01:31 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA['YOU SCREWED UP' Republicans hammer EPA official on Flint water crisis]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/15/republicans-hammer-epa-official-over-flint-water-crisis.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Wed, 16 Mar 2016 00:31:51 EDT</pubDate>
+			<fnc:datetime>01:31 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[DC COMMUTE CHAOS  Metro shutdown ordered, so no rush-hour trains]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/dc-workers-brace-for-nightmare-commute-as-subway-system-to-shut-for-emergency-inspections.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Wed, 16 Mar 2016 00:31:51 EDT</pubDate>
+			<fnc:datetime>01:31 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Texas teen believed to be in 'immediate danger' after police discover father's burned body - Divers search for missing crew member after deadly tugboat crash]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/texas-teen-believed-to-be-in-immediate-danger-after-police-discover-fathers-burned-body.html?intcmp=hpbt2</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Inspired by husband, NC woman designs adaptive clothing for disabled; strikes deal with major retailers]]></title>
+
+
+			<link>http://www.foxnews.com/health/2016/03/15/inspired-by-husband-nc-woman-designs-adaptive-clothing-for-disabled-strikes-deal-with-major-retailers.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Iran says it recovers information from US sailors' devices]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/iran-says-it-recovers-information-from-us-sailors-devices.html?intcmp=hpbt3</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Bible bonfire: ISIS video shows Christian books being destroyed, adds fuel to genocide debate  - VIDEO: ISIS burns Christian books in Mosul ]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/bible-bonfire-isis-video-shows-christian-books-being-destroyed-adds-fuel-to-genocide-debate.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Buzz Aldrin eyes 2040 for manned Mars mission]]></title>
+
+
+			<link>http://www.foxnews.com/science/2016/03/15/buzz-aldrin-eyes-2040-for-manned-mars-missions.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[PC pushback: Bill would limit students' gripefest over mean talk]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/tennessee-bill-would-ban-students-gripefest-over-mean-talk-unless-there-s-real-threat.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Pope says Mother Teresa to be made a saint on Sept. 4]]></title>
+
+
+			<link>http://www.foxnews.com/world/2016/03/15/pope-says-mother-teresa-to-be-made-saint-on-sept-4.html?intcmp=hpbt3</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Russian warplanes leaving Syria following Putin order - VIDEO: Russia withdrawing most of its forces from Syria  - Angelina Jolie says world has failed refugees]]></title>
+
+
+			<link>http://www.foxnews.com/world/2016/03/15/russian-warplanes-start-leaving-syria-following-putin-order.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Sony buys Michael Jackson's stake in music catalog for $750M]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/sony-buys-michael-jackson-stake-in-music-catalog-for-750m/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[US airport employees had ties to terror, report says]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/us-airport-employees-had-ties-to-terror-report-says.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[ Belgian police hunting for two suspects in anti-terror raid, shootout - VIDEO: New concerns radical Islamic terror could be coming to DC ]]></title>
+
+
+			<link>http://www.foxnews.com/world/2016/03/15/belgian-police-hunting-for-two-suspects-in-anti-terror-raid-that-left-officer-injured.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Police: Man charged in Toronto stabbing cites Allah]]></title>
+
+
+			<link>http://www.foxnews.com/world/2016/03/15/police-man-charged-in-toronto-stabbing-cites-allah.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Conceal-carry gives rise to sales of small firearms]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/booming-firearms-sales-driven-by-tiny-guns-conceal-carry-laws.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Maryland officer killed by friendly fire in gunman's ambush, police chief says - VIDEO: Autopsy reveals cop shot by friendly fire  - Brothers accused of recording attack]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/14/maryland-officer-killed-by-friendly-fire-in-gunmans-ambush-police-chief-says.html?intcmp=hpbt2</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Iditarod winner completes course in record time]]></title>
+
+
+			<link>http://www.foxnews.com/us/2016/03/15/dallas-seavey-wins-fourth-iditarod-crown-sets-course-record.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[In reversal, Obama administration to block oil drilling in Atlantic - VIDEO: Obama administration to block oil drilling   - Obama administration loosens travel restrictions to Cuba ahead of visit ]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/15/in-reversal-obama-admin-to-block-oil-drilling-in-atlantic.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Todd Palin has surgery, still in intensive care following snow mobile accident - VIDEO: Todd Palin on the road to recovery  ]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/15/todd-palin-has-surgery-still-in-intensive-care-following-snow-machine-accident.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Feds blocked from person of interest after San Bernardino attack, lawmakers told]]></title>
+
+
+			<link>http://www.foxnews.com/politics/2016/03/15/feds-blocked-from-person-interest-after-san-bernardino-attack-lawmakers-told.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 23:15:14 EDT</pubDate>
+			<fnc:datetime>12:15 AM EST</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Hawking a criminal mastermind?]]></title>
+
+
+			<link>http://www.foxnews.com/leisure/2016/03/15/jaguar-ad-enlists-stephen-hawking-as-villainous-mastermind/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Kristin denies love triangle]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/kristin-cavallari-my-relationship-with-stephen-colletti-was-real/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Chumlee had drugs vault]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/chumlee-pawn-stars-fame-had-12-handguns-and-vault-with-narcotics/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA['Judge Judy' in trouble]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/judge-judy-sheindlin-slams-hilarious-lawsuit-over-her-salary/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Tom, Nic's kid speaks out]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/bella-cruise-discusses-relationship-with-famous-parents-tom-cruise-and-nicole/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[YouTube was a DATING service?]]></title>
+
+
+			<link>http://www.foxnews.com/tech/2016/03/15/youtube-started-out-as-dating-service-co-founder-tells-sxsw.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Why teen's eye bleeds]]></title>
+
+
+			<link>http://www.foxnews.com/health/2016/03/15/17-year-old-who-bleeds-from-eyes-baffles-doctors.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Think twice before eating this]]></title>
+
+
+			<link>http://video.foxnews.com/v/4801985204001/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[1503 shipwreck reveals secrets]]></title>
+
+
+			<link>http://www.foxnews.com/science/2016/03/15/site-1503-shipwreck-tied-to-vasco-da-gama-found-off-oman.html</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[MTV star talks sex scene]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/real-world-cast-member-brynn-smith-steamy-sex-scene-was-exaggerated/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Hulk trial gets very explicit ]]></title>
+
+
+			<link>http://www.foxnews.com/entertainment/2016/03/15/hulk-hogan-gawker-media-trial-sex-video/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Hilarious mad Disney mom pics]]></title>
+
+
+			<link>http://www.foxnews.com/travel/2016/03/15/grumpy-wifes-disney-world-pic-turns-into-viral-meme/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Airline ad sparks anger]]></title>
+
+
+			<link>http://www.foxnews.com/travel/2016/03/15/budget-airline-apologizes-for-sexist-ad-featuring-womans-rear-end/</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+		<item>
+			<title><![CDATA[Clay on being fired by Trump]]></title>
+
+
+			<link>http://video.foxnews.com/v/4801877957001</link>
+			<author>foxnewsonline@foxnews.com (Fox News Online) </author>
+			<description />
+			<pubDate>Tue, 15 Mar 2016 16:33:24 EDT</pubDate>
+			<fnc:datetime>03/15</fnc:datetime>
+		</item>
+	</channel>
+</rss>
